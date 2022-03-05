@@ -13,7 +13,7 @@ or equal to 1000 (excluding doubles)
 '''
 x = []
 for i in range(1001):
- if (is_divisible_by_k(x, 2) & is_divisible_by_k(x, 3)) | is_divisible_by_k(x, 7):
+ if is_divisible_by_k(x, 2) or is_divisible_by_k(x, 3) or is_divisible_by_k(x, 7):
   x.append(i)
  
 '''
