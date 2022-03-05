@@ -20,4 +20,4 @@ for i in range(1001):
 Sum all the integers that are multiples of 2 or 5 or 7 that are lower 
 or equal to 1000 (excluding doubles)
 '''
-sum(x)
+print(sum(x))
