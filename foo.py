@@ -2,7 +2,10 @@ def is_divisible_by_k(x, k):
  '''
  Checks whether x is divisible by k.
  '''
- assert x%k == 0
+ if x%k == 0:
+     return True
+ else:
+     return False
  
 '''
 Store all the integers that are multiples of 2 or 5 or 7 that are lower 
